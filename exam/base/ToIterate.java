@@ -1,7 +1,6 @@
 package exam.base;
 
 import java.util.Iterator;
-import java.util.function.Consumer;
 
 public class ToIterate<T> implements Iterable { // implements Iterable so that ToIterate can be iterated
     private final T[] internal;
